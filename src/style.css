@@ -1,0 +1,176 @@
+html{
+    background-color: rgb(230, 230, 240);
+    color: #03036b;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+   
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+#navbar{
+    padding: 8px;
+    
+}
+
+#banner{
+    object-fit: cover;
+}
+#logo{
+    height: 30px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+#banner{
+    width: 100%;
+}
+
+#about{
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    padding: 8px;
+   
+}
+#description{
+    width:50%
+   
+
+}
+
+#team{
+    width: 50%;
+}
+
+#team-pic{
+    width: 100%;
+    border-radius: 5px;
+    border: 5px solid;
+    
+}
+#text{
+    margin-top: 0;
+}
+
+#job-Table{
+    width: 100%;
+    border-right: 1px solid gray;
+
+
+
+}
+
+#application-form {
+    margin: 0 auto;
+    padding: 8px;
+    max-width: 800px;
+}
+
+#application-form label{
+    font-weight: 600;
+}
+.form-group{
+    margin: 16px;
+}
+#application-form input, select, textarea {
+    padding: 8px;
+    font-size: 20px;
+    margin-top: 4px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: blue;
+}
+.form-group input[type="submit"] {
+    background-color: blue;
+    color: aliceblue;
+}
+h2{
+    text-align: center
+}
+
+#jobs{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+
+
+}
+
+#job-Table{
+    border-collapse: collapse;
+}
+
+.job-role{
+    margin-bottom: 2px;
+    margin-top: 6px;
+   
+
+}
+.job-Table{
+    border-collapse: collapse;
+
+}
+
+.Job-header-row th{
+    border: 1px solid gray;
+    background-color: gray;
+    text-align: left;
+    padding: 8px;
+}
+.job-data-row td{
+    border-right : 1px solid gray;
+    padding: 6px;
+    
+}
+
+#job-Table tr:nth-child(odd) {
+    background-color: rgb(165, 129, 129);
+}
+
+
+.apply{
+    float: right;
+}
+
+.fooster {
+    background-color: lightcyan;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.fooster-links {
+    list-style: none;
+    
+   
+}
+
+.fooster-links li{
+    display:inline;
+    margin: 0 16px;
+}
+
+.copyright {
+    color: grey;
+}
+
+.form-group textarea{
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
